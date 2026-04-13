@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+.venv312/
+
+# Local Jupyter/runtime state
+.jupyter_config/
+.jupyter_data/
+.jupyter_runtime/
+.tmp/
+catboost_info/
+
+# Raw OULAD data files
+assessments.csv
+courses.csv
+studentAssessment.csv
+studentInfo.csv
+studentRegistration.csv
+studentVle.csv
+vle.csv
+
+# Course materials and downloaded papers
+Lecture material/
+Lecture material.zip
+Background & Problem Framing (OULAD, Early Prediction, Binary Outcomes)/
+CatBoost as Self-Learned Model (Education-Specific)/
+CatBoost Technical Justification (FallbackAlgorithmic)/
+Class Weighting & Imbalanced Learning/
+Demographic & Enrollment Features/
+Early Assessment Features/
+Ethics, Fairness & Privacy/
+Evaluation Metrics/
+Interpretability vs. Performance/
+Leakage-Safe Temporal Cutoff/
+Logistic Regression as Taught Baseline/
+Probability Calibration/
+Threshold Choice for Intervention/
+Week 4 features/
+*.pdf
+*.docx
