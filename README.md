@@ -1,9 +1,10 @@
 # OULAD Week-4 Early Outcome Prediction
 
-This repository contains a compact public snapshot of an OULAD early-warning project. The task is to predict favourable versus unfavourable student outcomes using only information available by week 4, with a focus on leakage-safe feature engineering and clear model evaluation.
+This repository presents a week-4 early-warning workflow built on the Open University Learning Analytics Dataset (OULAD). The task is to predict favourable versus unfavourable student outcomes using only information available by week 4, with a focus on leakage-safe feature engineering and clear model evaluation.
 
 ## Included Files
 
+- `OULAD_Individual_2550723.pdf`: final written report with figures, tables, and discussion
 - `OULAD_Individual_2550723.ipynb`: final named notebook used for the project submission
 - `week4_pipeline.py`: main feature-engineering, training, and evaluation workflow
 - `requirements.txt`: Python dependencies required to run the pipeline locally
@@ -41,6 +42,19 @@ The raw OULAD CSV files are not included in this public repository. To rerun the
 - `studentVle.csv`
 - `vle.csv`
 
+## Repository Focus
+
+This repository is centered on the final report, the final notebook, and the core pipeline implementation.
+
+- `OULAD_Individual_2550723.pdf` provides the written report and the final presented results.
+- `OULAD_Individual_2550723.ipynb` provides the final project notebook.
+- `week4_pipeline.py` contains the main feature-engineering, training, and evaluation workflow.
+- `requirements.txt` captures the Python environment needed to run the project locally.
+
 ## Notes
 
-This public snapshot is intentionally smaller than the full coursework workspace. Supporting report-generation files and private submission documents were left out so the repository stays focused on the notebook, the main pipeline, and the minimal files needed to understand the project.
+The report, notebook, and pipeline are intended to be read together:
+
+- the report summarises the methodology, figures, tables, and conclusions
+- the notebook shows the final analysis workflow in notebook form
+- the pipeline script contains the main reproducible implementation
