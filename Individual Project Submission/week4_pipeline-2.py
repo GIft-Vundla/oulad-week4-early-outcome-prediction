@@ -1349,6 +1349,8 @@ def run_full_pipeline(project_root: Path | str, force_rebuild: bool = False) -> 
 
     metadata = {
         "feature_table_path": feature_table_path,
+        "feature_table": feature_table,
+        "literature_matrix": literature,
         "literature_matrix_rows": len(literature),
         "row_counts": row_counts,
         "eda_outputs": eda_outputs,
